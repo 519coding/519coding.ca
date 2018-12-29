@@ -142,14 +142,14 @@ hr {
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0));
 }
 
-.workList {
+.syllabus {
     text-align: left;
     list-style-type: none;
     overflow-y: auto;
     overflow-x: hidden;
 }
 
-.work { 
+.lesson { 
   height: 1.5em;
   line-height: 1.5em;
   margin: 1em 0em;
@@ -159,7 +159,7 @@ hr {
   position: relative;
 }
 
-.work a {
+.lesson a {
   width: 60px;
   height: 10px;
   position: relative;
@@ -174,7 +174,7 @@ hr {
   transition: 0.2s ease-in-out;
 }
 
-.work a:hover {
+.lesson a:hover {
     border-left: 5px solid rgba(32, 124, 167, 0.87);
     border-right: 5px solid rgba(32, 124, 167, 0.87);
     border-bottom: 5px solid rgba(32, 124, 167, 0.87);
@@ -246,38 +246,6 @@ hr {
 }
 
 .click-button a:hover {
-    border-left: 5px solid rgba(32, 124, 167, 0.87);
-    border-right: 5px solid rgba(32, 124, 167, 0.87);
-    border-bottom: 5px solid rgba(32, 124, 167, 0.87);
-    box-shadow: 10px 10px 10px rgba(0,0,0,0.3);
-}
-
-.first-lesson {
-  text-align: right;
-  height: 1.5em;
-	line-height: 1.5em;
-	margin: 1em 0em;
-  padding: 1em;
-  width: 100%;
-  border-radius: 8.0em;
-  position: relative;
-}
-.first-lesson a {
-    width: 60px;
-    height: 10px;
-    position: relative;
-	  color: rgba(0,0,0,0.87);
-    border: transparent;
-    border-top: 5px solid rgba(32, 124, 167, 0.87);
-    padding: 5px;
-    border-radius: 7px;
-    text-decoration: none;
-	  font-size: 1.2em;
-    box-shadow: 0px 1px 2px rgba(0,0,0,0.3);
-    transition: 0.2s ease-in-out;
-}
-
-.first-lesson a:hover {
     border-left: 5px solid rgba(32, 124, 167, 0.87);
     border-right: 5px solid rgba(32, 124, 167, 0.87);
     border-bottom: 5px solid rgba(32, 124, 167, 0.87);
