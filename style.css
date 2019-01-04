@@ -262,7 +262,10 @@ hr {
 
 img {
     border-radius: 7px;
-    border: 5px black;
+    border-top: 2px solid rgba(0, 0, 0, 0.582);
+    border-right: 2px solid rgba(0, 0, 0, 0.582);
+    border-bottom: 2px solid rgba(0, 0, 0, 0.582);
+    border-left: 2px solid rgba(0, 0, 0, 0.582);
 }
 
 
