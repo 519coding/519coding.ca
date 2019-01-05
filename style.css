@@ -269,4 +269,15 @@ img {
     border-left: 2px solid rgb(255,255,255);
 }
 
+.circle-image {
+    border-radius: 100%;
+    width: 10em;    
+    padding: 0em 2em;
+    float: left;
+    border-top: 2px solid rgb(255,255,255);
+    border-right: 2px solid rgb(255,255,255);
+    border-bottom: 2px solid rgb(255,255,255);
+    border-left: 2px solid rgb(255,255,255);
+}
+
 
