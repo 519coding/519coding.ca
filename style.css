@@ -262,4 +262,11 @@ img {
     border-left: 2px solid rgba(0, 0, 0, 0.582);
 }
 
+.other {
+    border-top: 2px solid rgb(255,255,255);
+    border-right: 2px solid rgb(255,255,255);
+    border-bottom: 2px solid rgb(255,255,255);
+    border-left: 2px solid rgb(255,255,255);
+}
+
 
