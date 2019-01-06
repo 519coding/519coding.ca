@@ -5,9 +5,9 @@
         Intro to HTML
 	    </title>
         <meta charset="UTF-8">
-        <link rel="shortcut icon" type="image/png" href="/favicon.png"/>
-        <link rel="shortcut icon" type="image/png" href="519favicon1.png"/>
-        <link rel="stylesheet" href="style.css">
+        <link rel="shortcut icon" type="image/png" href="../../images/favicon.png"/>
+        <link rel="shortcut icon" type="image/png" href="../../images/519favicon1.png"/>
+        <link rel="stylesheet" href="../../css/style.css">
         <style>
             h2 {
                 font-size: 30px;
@@ -18,19 +18,18 @@
                 font-size: 12px;
             }
         </style>
-        <script src="script.js"></script>
     </head>
-    
+
     <body>
         <div id="navbar">
-            <a class="home" href="index.html">519coding</a>
-            <a class="subpage" href="About Us.html">About Us</a>
-            <a class="subpage" href="Python Lessons.html">Python Lessons</a>
-            <a class="subpage active" href="Web Design Lessons.html">Web Design Lessons</a>
+            <a class="home" href="../../index.html">519coding</a>
+            <a class="subpage" href="../about-us.html">About Us</a>
+            <a class="subpage" href="../python-lessons.html">Python Lessons</a>
+            <a class="subpage active" href="../web-design-lessons.html">Web Design Lessons</a>
         </div>
         <article>
             <h1>Intro to HTML - The first step of your journey.</h1>
-            <p>Welcome to section 1/3 of our Web Design Course! In this section you'll be learning how to code the basic framework of a website using HTML. This lesson is the first of 5 in our HTML section. In this lesson, we'll be teaching you the basic structure of HTML as well as some key terms and concepts to know. Don't worry if you don't completely understand the concepts in this lesson - this is just a brief overview. We'll be doing a more thorough explanation of these concepts in our next lessons.</p>  
+            <p>Welcome to section 1/3 of our Web Design Course! In this section you'll be learning how to code the basic framework of a website using HTML. This lesson is the first of 5 in our HTML section. In this lesson, we'll be teaching you the basic structure of HTML as well as some key terms and concepts to know. Don't worry if you don't completely understand the concepts in this lesson - this is just a brief overview. We'll be doing a more thorough explanation of these concepts in our next lessons.</p>
             <hr>
             <h1>An basic HTML document</h1>
             <p>Here is an example of a super-simple HTML document, just to give you an basic idea of what you'll be working with:</p>
@@ -56,24 +55,25 @@
 	        <p><code>&lt;head&gt;</code> - This element contains the title of your website, stylesheets, and scripts (we'll get more into this later). Just like the two previous elements we described, this element does not generate any visible content onto your webpage. </p>
 		<p><code>&lt;title&gt;</code> - This element is used to create a title for your website. The title of your website is displayed at the top of the browser tab, as shown below:
 		<figure>
-			<img src="Title.png"></img>
+			<img src="../../images/Title.png"></img>
                         <figcaption>Fig. 1 - The &lt;title&gt; element allows you to create a title for your website.</figcaption>
 		</figure>
 	        <p><code>&lt;body&gt;</code> - The &lt;body&gt; element contains the framwork for all of your website's visible content (i.e. Headings, paragraphs, sub-headings).</p>
 	        <p><code>&lt;h1&gt;</code> - This element is used to give your website headings. There are 6 heading sizes in html, numbered in descending order from &lt;h1&gt; all the way to &lt;h6&gt;, with &lt;h1&gt; being the largest heading and &lt;h6&gt; being the smallest possible heading you can make. Click the button below to see these headings in action:</p>
 	        <p class = "click-button"><a href="https://repl.it/@BarryZhang1/Headings" target="_blank">Click Here</a></p>
 	        <p><code>&lt;p&gt;</code> - The &lt;p&gt; element is used to create paragraphs on your website. We'll talk more about this shortly.
-	
+
 	    <h1>HTML tags</h1>
 	    <p>All HTML <i>elements</i> are made up of <i>tags</i>. Tags usually come in pairs, like so <code>&lt;p&gt; &lt;&#47p&gt;</code>. (Note that the second tag must have a forward slash &#47. Kinda weird, but it's a rule. I guess it's so that you can distinguish between the two tags). The first tag is called the <i>opening tag</i> and the second tag is called the <i>closing tag</i>. Almost all HTML elements are represented by an opening tag followed by a closing tag, with the exception of special elements such as <code>&lt;!DOCTYPE html&gt;</code>. Most elements however, contain both an opening tag and a closing tag. Think of it like a sandwich. The two tags are like the bread, and the content between the bread is all the tasty stuff, the stuff that is actually displayed on your website.</p>
 		    <p><code>
 			    &lt;p&gt;</code> &#8594; this is your sandwich's bread <br>
 			    <cool>This is the text that goes between your &lt;p&gt; and &lt;&#47p&gt; tags. This text is actually visible on your website, the tags just tell the computer that you are making a pargagraph. This is like the ham and cheese of your sandwich - the tasty stuff!</cool><br>
 			    <code>&lt;&#47p&gt;</code> &#8594; this is your sandwich's bread<br>
-			    </p>	
-	<hr> 
-        <p class = "next-lesson"><a href="The Big 3.html">&#8592; Previous Lesson</a> <a href="Working with HTML.html">Next Lesson &#8594;</a></p>
+			    </p>
+	    <hr>
+        <p class = "next-lesson"><a href="the-big-3.html">&#8592; Previous Lesson</a> <a href="working-with-html.html">Next Lesson &#8594;</a></p>
 
         </article>
+        <script src="../../js/navhide.js"></script>
     </body>
 </html>
