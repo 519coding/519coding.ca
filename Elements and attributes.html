@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+      <title>
+        Elements and attributes
+	    </title>
+        <meta charset="UTF-8">
+        <link rel="shortcut icon" type="image/png" href="/favicon.png"/>
+        <link rel="shortcut icon" type="image/png" href="519favicon1.png"/>
+        <link rel="stylesheet" href="style.css">
+        <style>
+            h2 {
+                font-size: 30px;
+                color: black;
+                text-align: left;
+            }
+
+            figcaption {
+                font-size: 12px;
+            }
+        </style>
+        <script src="script.js"></script>
+    </head>
+    
+    <body>
+        <div id="navbar">
+            <a class="home" href="index.html">519coding</a>
+            <a class="subpage" href="About Us.html">About Us</a>
+            <a class="subpage" href="Python Lessons.html">Python Lessons</a>
+            <a class="subpage active" href="Web Design Lessons.html">Web Design Lessons</a>
+        </div>
+        <article>
+            <h1>HTML elements and attributes</h1>
+            <p>In this lesson, we'll be teaching you some cool  <i>attributes</i> that you can use in tandem with elements. As we mentioned in the previous two lessons, elements are made up of an opening tag and a closing tag &#8594; <code>&lt;head&gt;&lt;/head&gt;</code> with the content sandwiched in between these two tags. However, what you may not know is that we can still add additional info to these elements by assigning them <i>attributes</i>. You can assign attributes to certain elements by inlcuding them in the opening tag, like so: <code>&lt;p <mark>style="color:blue"</mark>&gtHello there&lt/p&gt</code><i> (the part highlighted in yellow represents the attribute and its assigned value)</i>. We'll explain this more thoroughly below.
+            <hr>
+            
+            <h2>The <i>src</i> attribute</h2>
+            <p>Websites can look pretty boring without images. You can add images to your website by using the <i>src</i> attribute together with the <code>&lt;img&gt;</code> element. We can do this by setting the <i>src</i> attribute equal to the image's url or file name, like so: <br> <code>&lt;img <mark>src="https://c1.staticflickr.com/6/5140/5423307327_57cde2b5b7_b.jpg"</mark>&gt;</code>. <br>Click the button below to see this in action:</p>
+             <p class = "click-button"><a href="https://repl.it/@BarryZhang1/Image-demo" target="_blank">Click Here</a></p>
+
+             <h2>The <i>width</i> and <i>height</i> attributes</h2>
+             <p>Sometimes our image comes out to big, like <a href="https://repl.it/@BarryZhang1/Image-too-big" target="_blank">this one</a>. In that case, we have to resize it by adding the <i>height</i> and <i>width</i> attributes to our <code>&lt;img&gt;</code> element, like so: <code>&lt;img src="https://c1.staticflickr.com/6/5140/5423307327_57cde2b5b7_b.jpg" <mark>width="300" height="250"</mark>&gt;</code>. <br> Click the button below to see the resized version of our image:</p>
+             <p class = "click-button"><a href="https://repl.it/@BarryZhang1/Resize-image" target="_blank">Click Here</a></p>
+
+             <h2>The <i>alt</i> attribute</h2>
+             <p>Those who are visually impaired and have trouble seeing the website in front of them often use <i>screen reader</i> technology that reads the contents of the website aloud. However, when we have an image on our website, screen readers cannot express them out loud and thus, those who are visually impaired won't be able to understand what the image contains. To prevent this from happening, we add the <i>alt</i> attribute to our <code>&lt;img&gt;</code> element, like so: <br><code>&lt;img src="https://c1.staticflickr.com/6/5140/5423307327_57cde2b5b7_b.jpg" <mark>alt="smiley face balloon"</mark>width="300" height="250"&gt;</code><br>An <i>alt</i> attribute, like the one above, should describe the contents of the image - If it's a picture of giraffe, don't describe it as a gorilla in your <i>alt</i> attribute &#9786;</p>
+
+             <h2>The <i>style</i> attribute</h2>
+             <p>When we add images, our website begins to look a bit cooler. However, if you want to go one step further and <i>really</i> give your website some <i>oomph</i>, you can use the <i>style</i> attribute. The <i>style</i> attribute is usually used with the header and paragraph elements, like so: <br><code>&lt;p <mark>style="color:blue"</mark>&gtHello there&lt/p&gt</code>. Click the button below to see some cool implementations of the <i>style</i> attribute:</p>
+             <p class = "click-button"><a href="https://repl.it/@BarryZhang1/style" target="_blank">Click Here</a></p>
+             <p>We'll talk more about styling in our next lesson!</p>
+
+             <h2>The <i>href</i> attribute</h2>
+             <p>The <i>href</i> attribute is used together with the <code>&lt;a&gt;&lt;/a&gt;</code> element to give your website a hyperlink. We can assign any link we want by setting it equal to the <i>href</i> attribute, like so: <code>&lt;a <mark>href="https://519coding.ca/"</mark>&gt;Click here&lt;a&gt;</code>. Click the button below to get a better idea of what this looks like:</p>
+             <p class = "click-button"><a href="https://repl.it/@BarryZhang1/Hyperlink-demo" target="_blank">Click Here</a></p>
+
+             <h2>The <i>target="_blank"</i> attribute</h2>
+             <p>The <i>target="_blank"</i> attribute is used together with the <code>&lt;a&gt;&lt;/a&gt;</code> element to create a hyperlink that opens in a new tab when clicked on. We add the <i>target="_blank"</i> attribute like this: <code>&lt;a href="https://519coding.ca/" <mark>target="_blank'</mark>&gt;Click here&lt;a&gt;</code>. Click the button below to see how this works:</p>
+             <p class = "click-button"><a href="https://repl.it/@BarryZhang1/Hyperlink-demo" target="_blank">Click Here</a></p>
+
+             <p>That's all folks. Practice using these attributes on your own on <a href="https://repl.it/">Repl.it</a>&#9786;</p>
+
+            <hr>
+            <p class = "next-lesson"><a href="Setting up.html">&#8592; Previous Lesson</a> <a href="Text styling.html">Next Lesson &#8594;</a></p>
+
+            
+
+        </article>
+    </body>
+</html>
