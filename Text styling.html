@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+      <title>
+        How to style your text
+	    </title>
+        <meta charset="UTF-8">
+        <link rel="shortcut icon" type="image/png" href="/favicon.png"/>
+        <link rel="shortcut icon" type="image/png" href="519favicon1.png"/>
+        <link rel="stylesheet" href="style.css">
+        <style>
+            h2 {
+                font-size: 30px;
+                color: black;
+                text-align: left;
+            }
+
+            figcaption {
+                font-size: 12px;
+            }
+        </style>
+        <script src="script.js"></script>
+    </head>
+    
+    <body>
+        <div id="navbar">
+            <a class="home" href="index.html">519coding</a>
+            <a class="subpage" href="About Us.html">About Us</a>
+            <a class="subpage" href="Python Lessons.html">Python Lessons</a>
+            <a class="subpage active" href="Web Design Lessons.html">Web Design Lessons</a>
+        </div>
+        <article>
+            <h1>How to style your text</h1>
+            <p>In the previous lesson, we did a brief overview about the different ways you can style your website's text. This lesson will serve as a comprehensive reference guide containing cool ways you can style your text and spice up your website.
+            </p>
+            <hr>
+            <h2>Changing your text colour</h2>
+            <p>We can change the colour of our website's text using the <code>color</code> property and assigning it to the name or rgb code of the color we want to change our text to: <code>&lt;p <mark>style="color:blue"</mark>&gtHello there&lt/p&gt</code> or <code>&lt;p <mark>style="color:rgb(0,0,255)"</mark>&gtHello there&lt/p&gt</code> <i>(Note that HTML uses the American spelling of the word "colour", without the letter "u")</i>. Click the button below to see how it's done:</p>
+            <p class = "click-button"><a href="https://repl.it/@BarryZhang2/text-colour?language=html" target="_blank">Click Here</a></p>
+
+            <h2>Changing your text size.</h2>
+            <p>Let's say you want to give your website's text a custom size. You can do this by using the <code>font-size</code> property and assigning it to a  font size of your choice: <code>&lt;p <mark>style="font-size:50px"</mark>&gtHello there&lt/p&gt</code>. Click the button below to see how it's done:</p>
+            <p class = "click-button"><a href="https://repl.it/@BarryZhang2/text-size" target="_blank">Click Here</a></p>
+
+            <h2>Changing your text font</h2>
+            <p>You've probably noticed that HTML's default font looks pretty boring. Luckily, you can spice it up using the <code>font-family</code> property and assigning it to a font of your choice: <code>&lt;p <mark>style="font-family: Comic Sans MS"</mark>&gtHello there&lt/p&gt</code>. Click the button below to see how it's done:</p>
+            <p class = "click-button"><a href="https://repl.it/@BarryZhang2/text-font" target="_blank">Click Here</a></p>
+
+            <h2>Changing your text alignment</h2>
+            <p>As you may have noticed, when we create a heading or paragraph in HTML, it is always aligned along the left sife of the page. <i>But what if I want to keep my text on the center of the page or the right side of the page?</i>. Well, to do that, you can use the <code>text-align</code> property and assign it to one of three values: <code>left</code>, <code>right</code>, or <code>center</code>. Click the button below to see how it's done:</p>
+            <p class = "click-button"><a href="https://repl.it/@BarryZhang2/text-align" target="_blank">Click Here</a></p>
+
+            <h2>Changing the background colour</h2>
+            <p>In addition to changing the text colour, you can also change the background colour by using the <code>background-colour</code> property and assigning it to the name of rgb code of the colour you wish to change it to: <code>&lt;body <mark>style="background-color:green"</mark>&gt&lt/body&gt</code>. Click the button below to see how it's done:</p>
+            <p class = "click-button"><a href="https://repl.it/@BarryZhang2/background-color" target="_blank">Click Here</a></p>
+            <hr>
+
+            <h1>Text formatting</h1>
+            <p>All of the style properties from above are used together with the <code>style</code> attribute. However, that's not the only way we can style our text. Another way we can spice up our text is by using special elements called <i>formatting elements</i>, which can create special types of text. Here are some useful formatting elements:
+            <p>&#10146; <code>&lt;b&gt</code> - This element creates <b>bold</b> text. We sandwich our text between the opening <code>&lt;b&gt</code> and closing <code>&lt;/b&gt</code> tags.</p>
+            
+            <p>&#10146; <code>&lt;i&gt</code> - This element creates <i>italicized</i> text. We sandwich our text between the opening <code>&lt;i&gt</code> and closing <code>&lt;/i&gt</code> tags.</p>
+
+            <p>&#10146; <code>&lt;i&gt</code> - This element creates <i>italicized</i> text. We sandwich our text between the opening <code>&lt;i&gt</code> and closing <code>&lt;/i&gt</code> tags.</p>
+
+            <p>&#10146; <code>&lt;mark&gt</code> - This element creates <mark>marked</mark> text. We sandwich our text between the opening <code>&lt;mark&gt</code> and closing <code>&lt;/mark&gt</code> tags.</p>
+
+            <p>&#10146; <code>&lt;small&gt</code> - This element creates <small>small</small> text. We sandwich our text between the opening <code>&lt;small&gt</code> and closing <code>&lt;/small&gt</code> tags.</p>
+            
+            <p>&#10146; <code>&lt;del&gt</code> - This element creates <del>deleted</del> text. We sandwich our text between the opening <code>&lt;del&gt</code> and closing <code>&lt;/del&gt</code> tags.</p>
+
+            <p>&#10146; <code>&lt;ins&gt</code> - This element creates <ins>inserted</ins> text. We sandwich our text between the opening <code>&lt;ins&gt</code> and closing <code>&lt;/ins&gt</code> tags.</p>
+
+            <p>&#10146; <code>&lt;sub&gt</code> - This element creates <sub>subscript</sub> text. We sandwich our text between the opening <code>&lt;sub&gt</code> and closing <code>&lt;/sub&gt</code> tags.</p>
+
+            <p>&#10146; <code>&lt;sup&gt</code> - This element creates <sup>superscript</sup> text. We sandwich our text between the opening <code>&lt;sup&gt</code> and closing <code>&lt;/sup&gt</code> tags.</p>
+            
+            <p>Click the button below to see all of these formatting elements in action:</p>
+             <p class = "click-button"><a href="https://repl.it/@presidentdu/Text-Formatting" target="_blank">Click Here</a></p>
+
+            <h1>You have completed the first step of your journey</h1>
+            <p>That's all folks, that was our 5<sup>th</sup> and final lesson in our HTML course. Our next course will be about CSS! But before you move on to your first lesson in CSS, we encourage you to review the concepts you learned in our HTML course and use <a href="https://repl.it/" target="_blank">Repl.it</a> to create an HTML page of your own.</p>
+      
+            <hr>
+            <p class = "next-lesson"><a href="Elements and attributes.html">&#8592; Previous Lesson</a> <a href="CSS Basics.html">Next Lesson &#8594;</a></p>
+
+            
+
+        </article>
+    </body>
+</html>
