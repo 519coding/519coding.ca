@@ -5,9 +5,9 @@
         Basic Syntax in Python 3.0
 	    </title>
         <meta charset="UTF-8">
-        <link rel="shortcut icon" type="image/png" href="/favicon.png"/>
-        <link rel="shortcut icon" type="image/png" href="519favicon1.png"/>
-        <link rel="stylesheet" href="style.css">
+        <link rel="shortcut icon" type="image/png" href="../../images/favicon.png"/>
+        <link rel="shortcut icon" type="image/png" href="../../images/519favicon1.png"/>
+        <link rel="stylesheet" href="../../css/style.css">
         <style>
             h2 {
                 font-size: 30px;
@@ -19,15 +19,14 @@
                 font-size: 12px;
             }
         </style>
-        <script src="script.js"></script>
     </head>
-    
+
     <body>
         <div id="navbar">
-            <a class="home" href="index.html">519coding</a>
-            <a class="subpage" href="About Us.html">About Us</a>
-            <a class="subpage active" href="Python Lessons.html">Python Lessons</a>
-            <a class="subpage" href="Web Design Lessons.html">Web Design Lessons</a>
+            <a class="home" href="../../index.html">519coding</a>
+            <a class="subpage" href="../about-us.html">About Us</a>
+            <a class="subpage active" href="../python-lessons.html">Python Lessons</a>
+            <a class="subpage" href="../web-design-lessons.html">Web Design Lessons</a>
         </div>
         <article>
             <h1>Intro to Python Syntax - What the Hell is a Syntax?</h1>
@@ -38,13 +37,13 @@
             <h2>Indents and Colons</h2>
             <p>The first major rule that needs to be followed is that blocks of code contained within <i>function definitions</i>, <i>loops</i>, <i>conditional statements</i>, and <i>class definitions</i> (Don't worry about these right now, we'll learn about them later) must follow a colon and must be indented.</p>
             <figure>
-                <img src="Indents and colons.png"></img>
+                <img src="../../images/Indents and colons.png"></img>
                 <figcaption>Fig. 1 - The print function on line 6 is not in the if statement because it's not indented.</figcaption>
             </figure>
             <h2>Brackets</h2>
             <p>The second major rule is that all opening brackets must have its own distinct closing bracket.</p>
             <figure>
-                <img src="Bracket Rules.png"></img>
+                <img src="../../images/Bracket Rules.png"></img>
                 <figcaption>Fig. 2 - Line 2 raises an error because of a missing closing bracket.</figcaption>
             </figure>
             <hr>
@@ -53,12 +52,12 @@
             <h2>How's it Done?</h2>
             <p>You've actually already seen a comment! In Figure 1, the green text on line 1 is a comment. All single-line comments begin with a hash/pound/sharp sign (# will be called a hash symbol in these articles). Anything that comes after a hash symbol will be ignored.</p>
             <figure>
-                <img src="Single-Line Comments.png"></img>
+                <img src="../../images/Single-Line Comments.png"></img>
                 <figcaption>Fig. 3 - Here are some comments!</figcaption>
             </figure>
             <p>Many other languages include multi-line comments, but Python doesn't technically have one. I say technically because you can use triple-quotation marks to convert a block of text into a string (You'll learn about strings soon) that will be ignored.</p>
             <figure>
-                <img src="Multi-Line Comments.png"></img>
+                <img src="../../images/Multi-Line Comments.png"></img>
                 <figcaption>Fig. 4 - What a cool multi-line comment)</figcaption>
             </figure>
             <h2>The Good, the Bad, the Ugly</h2>
@@ -66,19 +65,21 @@
             <h1>Print Functions</h1>
             <p>Unlike comments, print functions <strong>are read and executed by the computer</strong>. Print functions look like this: (You may have noticed them in Fig. 1, Fig. 2, Fig. 3, and Fig. 4)</p>
              <figure>
-                <img src="Print Statements.png"></img>
+                <img src="../../images/Print Statements.png"></img>
                 <figcaption>Fig. 5 - This is what a print function  looks like!</figcaption>
             </figure>
-            <p>As you can see, a print function is made of two parts: The word "print" on the left side and a pair of parantheses containing the message you wish to write on the right side. The word "print" tells the computer that you want to print a message and the parantheses let the computer know what it is you want to print. Speaking of printing, you might be asking yourself "Where does the computer print my message?" Well, you see, Python's interface is made up of two components: The <i>editor</i> and the <i>compiler</i>. The <i>editor</i> is where we type stuff and tell our computer what to do. The <i>compiler</i> is where the computer translates our code into a messsage. You can think of the editor as the place where we <i>input</i> code and the compiler as the place where the computer <i>outputs</i> its interpretation of whatever we inputted into the editor.</p> 
+            <p>As you can see, a print function is made of two parts: The word "print" on the left side and a pair of parantheses containing the message you wish to write on the right side. The word "print" tells the computer that you want to print a message and the parantheses let the computer know what it is you want to print. Speaking of printing, you might be asking yourself "Where does the computer print my message?" Well, you see, Python's interface is made up of two components: The <i>editor</i> and the <i>compiler</i>. The <i>editor</i> is where we type stuff and tell our computer what to do. The <i>compiler</i> is where the computer translates our code into a messsage. You can think of the editor as the place where we <i>input</i> code and the compiler as the place where the computer <i>outputs</i> its interpretation of whatever we inputted into the editor.</p>
             <figure>
-                <img src="function_machine.png" width = "150"></img>
+                <img src="../../images/function_machine.png" width = "150"></img>
                 <figcaption>Fig. 6 - Think of Python as a machine with two ends - One for input and another for output.</figcaption>
             </figure>
             <p>Now's the time for you to put your knowledge to the test! Click the button below and try typing comments and print functions into the editor. Next, click the small, green 'run' button at the top to see what the computer outputs in the small, black compiler window. Be sure to follow the proper syntax rules - Don't forget to enclose your message in quotation marks and parantheses for print functions.</p>
            <p class = "click-button"><a href="https://www.onlinegdb.com/online_python_compiler"  target="_blank">Click Here</a></p>
             <hr>
-            <p class = "next-lesson"><a href="Installing Python.html">&#8592; Previous Lesson</a> <a href="Strings.html">Next Lesson &#8594;</a></p>
+            <p class = "next-lesson"><a href="installing-python.html">&#8592; Previous Lesson</a> <a href="strings.html">Next Lesson &#8594;</a></p>
 
         </article>
+
+        <script src="../../js/navhide.js"></script>
     </body>
 </html>
