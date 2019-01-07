@@ -280,4 +280,7 @@ img {
     border-left: 2px solid rgb(255,255,255);
 }
 
-
+#title {
+	display: inline-block;
+	vertical-align: middle;
+}
