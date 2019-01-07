@@ -9,7 +9,7 @@ window.onscroll = function() {
   if (currentPosition == 0) {
     document.getElementById("navbar").style.top = "0";
   } else {
-    document.getElementById("navbar").style.top = "-55px";
+    document.getElementById("navbar").style.top = "-50px";
   }
 
   prevPosition = currentPosition;
