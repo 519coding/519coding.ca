@@ -4,8 +4,98 @@
     <head>
         <meta charset="utf-8">
         <link rel="stylesheet" href="../../css/style.css">
+    	<link rel="shortcut icon" type="image/png" href="../../images/favicon.png"/>
+	    <link rel="shortcut icon" type="image/png" href="../../images/519favicon1.png"/>
     </head>
     
     <body>
+        <div id="navbar">
+            <a class="home" href="../../index.html">519coding</a>
+            <a class="subpage" href="../about-us.html">About Us</a>
+            <a class="subpage active" href="../python-lessons.html">Python Lessons</a>
+            <a class="subpage" href="../web-design-lessons.html">Web Design Lessons</a>
+        </div>
+
+        <article>
+            <img src="../../images/yarn.png" class="circle-image"/>
+            <h1>What in the world is a string?</h1>
+            <p>
+                No, we are not referring to a piece of yarn that your cat plays with. Strings are a unique and useful data type in Python.In our previous lessons, you have already seen strings being used in our print functions: <code>print("Hello World")</code>. Strings are used to produce text. This text is output to the compiler using the <code>print()</code> function. Click the button below to see this in action:
+            </p>
+            <p class = "click-button" style="text-align:right"><a href="https://repl.it/@BarryZhang1/strings" target="_blank">Click Here</a></p>
+            
+            <hr>
+
+            <h1>String Literals</h1>
+            <p>
+                Strings are a unique data type in most programming languages. Integers and Floats are basic objects that aren't made up of anything else. However, Strings are a sequence of characters. For example, 
+                <code>
+                    "Hello, World!"
+                </code> 
+                is made up of the characters
+                <code>
+                    "H", "e", "l", "l", "o", ",", " ", "W", "o", "r", "l", "d", "!"
+                </code>
+                . This property of Strings allows us to do several interesting things with them.
+            </p>
+
+            <h1>String Concatenation</h1>
+            <p>
+                We can aslo combine different strings into one big string, using the <code>+</code> operator: <br> <code>print("Hello" <mark>+</mark> ", " <mark>+</mark> "world!")</code>. This is called <i>string concatenation</i>. <br>Click the button below to see this in action:     
+                <p class = "click-button"><a href="https://repl.it/@BarryZhang1/string-concatenation" target="_blank">Click Here</a></p>
+             
+            </p>
+
+            <h1>String Indices and Slices</h1>
+            <p>
+                In Python, you are able to retrieve specific characters from a string. All characters in a string are have an number index assigned to them. BUT! Instead of starting at 1, the index of the leftmost character is 0 and the last character is the length of the string minus 1. This is called a zero-based numbering system. 
+                <img src="../../images/array-indexing.png"></img>
+            </p>
+
+            <p>
+                Suppose:
+            </p>
+                <code>
+                    s = "Monty Python"
+                </code>
+            <p>
+                What if you wanted to use only the first character of that string, "M"?
+            </p>
+
+            <p>
+                Doing this is actually quite simple. To get a character from a string, type the variable name with set of square brackets after the variable name. The square brackets should contain the index of the character you want to retrieve.
+            </p>
+
+            <img src="../../images/s-index0.png"></img>
+
+            <p>
+                You can also retrieve a <i>Slice</i> of a string. A slice is just a string contained within a string.
+            </p>
+            <img src="../../images/s-index1.png"></img>
+            <p>The square bracket now takes two arguments that are separated by a colon. The first value is the index of the starting character, the second value is the index of the ending character PLUS ONE!!!!! NOTE! The first argument is <b>INCLUSIVE</b> the second argument is <b>EXCLUSIVE</b>.
+            </p>
+            <img src="../../images/s-index2.png"></img>
+            <img src="../../images/s-index3.png"></img>
+            <img src="../../images/s-index4.png"></img>
+            <p>
+                If the value before or after the colon is left empty, then the index will be set to either the start or the end of the string.
+            </p>
+            <p>
+                What if you wanted to have every second character in a string? Well, the square brackets can take a third value, also separated by a colon, called the <i>step</i>.
+            </p>
+            <img src="../../images/s-index5.png"></img>
+            <img src="../../images/s-index6.png"></img>
+            <img src="../../images/s-index7.png"></img>
+            <p>
+                In the last two examples you can see that when the step is negative, you get a string that is reversed. NOTE! When the step is negative, then the starting index must be the higher index, and the ending index must be the lower index.
+            </p>
+            
+            <hr>
+            <p class = "next-lesson"><a href="python-syntax.html">&#8592; Previous Lesson</a> <a href="conditionals-and-control-flow.html">Next Lesson &#8594;</a></p>
+        </article>
+
+        
+
+        <script src="../../js/navhide.js"></script>
     </body>
 </html>
