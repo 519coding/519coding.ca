@@ -1,4 +1,4 @@
-# 519coding.github.io
+# 519coding.ca
 Website by @bluebarryz and @tdude92
 
 <h1>About us</h1>
