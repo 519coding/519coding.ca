@@ -4,81 +4,81 @@ body {
 }
 
 #navbar {
-  font-family: calibri, calibri;
-  text-align: left;
-  border-top: 3px solid #2186ab;
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.719);
-  background-color: rgb(248, 248, 248); 
-  position: fixed; 
-  top: 0px; 
-  left: 0px;
-  width: 100vw; 
-  transition: top 0.1s; 
-  height: 3em
+    font-family: calibri, calibri;
+    text-align: left;
+    border-top: 3px solid #2186ab;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.719);
+    background-color: rgb(248, 248, 248); 
+    position: fixed; 
+    top: 0px; 
+    left: 0px;
+    width: 100vw; 
+    transition: top 0.1s; 
+    height: 3em
 }
 
 #navbar a {
-  float: left;
-  display: block;
-  color: rgb(0, 0, 0);
-  text-align: center;
-  padding: 15px;
-  text-decoration: none;
+    float: left;
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
 
 }
 /* hover effects */
 
 #navbar a:hover {
-  color: #2186ab;
+    color: #2186ab;
 }
 h1 {
-  font-size: 1.95em;
-  padding: 5px
+    font-size: 1.95em;
+    padding: 5px
 }
 
 #navbar .home { 
     font-size: 1.5em;
- 	  font-weight: bolder;
-	  line-height: 0.1em;
+    font-weight: bolder;
+    line-height: 0.1em;
     background:#2186ab;
     padding: 0.95em;
     color: rgb(255, 255, 255)
 }
 
 .home:visited, .home:link {
-	color: rgba(255,255,255,0.87);
+    color: rgba(255,255,255,0.87);
 }
 
 #navbar .home:hover {
-	color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
     background: rgba(255, 255, 255, 0);
     transition: 0.2s ease-in-out;
 }
 
 .home, .subpage {
-	text-decoration: none;
+    text-decoration: none;
 }
 
 #navbar .subpage {
-	font-size: 1.5em;
- 	font-weight: bolder;
-	line-height: 0.1em;
-  padding: 0.95em;
-  color: rgb(0, 0, 0)
+    font-size: 1.5em;
+    font-weight: bolder;
+    line-height: 0.1em;
+    padding: 0.95em;
+    color: rgb(0, 0, 0)
 }
 
 #navbar .subpage:visited, .subpage:link {
-	color: rgba(0,0,0,0.87);
+    color: rgba(0,0,0,0.87);
 }
 
 #navbar .subpage:hover {
-	color: rgba(32, 124, 167, 0.87);
-  transition: 0.2s ease-in-out;
-	cursor: pointer;
+    color: rgba(32, 124, 167, 0.87);
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
 }
 
 #navbar .subpage.active {
-  color: rgba(32, 124, 167, 0.87);
+    color: rgba(32, 124, 167, 0.87);
 }
 
 body {
@@ -86,62 +86,62 @@ body {
 }
 
 .title {
-	font-family:calibri, calibri;
-	font-weight:700;
-	font-size:6.5vw;
-	margin:15% auto auto;
-	color:white;
-	text-align: center;
-  padding: 5% 0;
-	display:block;
-	text-shadow: 8px 8px 10px rgba(0,0,0,0.3);
+    font-family:calibri, calibri;
+    font-weight:700;
+    font-size:6.5vw;
+    margin:15% auto auto;
+    color:white;
+    text-align: center;
+    padding: 5% 0;
+    display:block;
+    text-shadow: 8px 8px 10px rgba(0,0,0,0.3);
 }
 
 h2 {
-	font-family:calibri, calibri;
-	font-weight:700;
-	font-size:2vw;
-	white-space: nowrap;
-	margin-top:5%;
-	color:black;
-	text-align: left;
-	text-shadow: 5px 5px 10px rgba(0,0,0,0.3);
+    font-family:calibri, calibri;
+    font-weight:700;
+    font-size:2vw;
+    white-space: nowrap;
+    margin-top:5%;
+    color:black;
+    text-align: left;
+    text-shadow: 5px 5px 10px rgba(0,0,0,0.3);
 }
 
 body article {
-	display: block;
-	width: 70vw;
-	margin: 5.5em auto;
-	font-size: 1.2em;
-	line-height: 1.5em;
-	font-family: calibri;
+    display: block;
+    width: 70vw;
+    margin: 5.5em auto;
+    font-size: 1.2em;
+    line-height: 1.5em;
+    font-family: calibri;
 }
 
 body article code {
-	background: rgba(230,230,230,1);
-	padding: 4px;
-	border-radius: 2px;
-	border: 1px solid rgba(220,220,220,1);
+    background: rgba(230,230,230,1);
+    padding: 4px;
+    border-radius: 2px;
+    border: 1px solid rgba(220,220,220,1);
 }
 
 body article cool {
-	background: yellow;
-	padding: 4px;
-	border-radius: 2px;
-	border: 1px solid rgba(220,220,220,1);
+    background: yellow;
+    padding: 4px;
+    border-radius: 2px;
+    border: 1px solid rgba(220,220,220,1);
 }
 
 
 body article blockquote {
-	background: rgba(235,235,235,1);
-	border-left: 5px solid rgba(100,100,100,1);
-	padding: 10px;
-	font-style: italic;
+    background: rgba(235,235,235,1);
+    border-left: 5px solid rgba(100,100,100,1);
+    padding: 10px;
+    font-style: italic;
 }
 
 body article iframe {
-	margin: 0px auto;
-	text-align: center;
+    margin: 0px auto;
+    text-align: center;
 }
 
 hr {
@@ -158,28 +158,28 @@ hr {
 }
 
 .lesson { 
-  height: 1.5em;
-  line-height: 1.5em;
-  margin: 1em 0em;
-  padding: 1em;
-  width: 100%;
-  border-radius: 8.0em;
-  position: relative;
+    height: 1.5em;
+    line-height: 1.5em;
+    margin: 1em 0em;
+    padding: 1em;
+    width: 100%;
+    border-radius: 8.0em;
+    position: relative;
 }
 
 .lesson a {
-  width: 60px;
-  height: 10px;
-  position: relative;
-  color: rgba(0,0,0,0.87);
-  border: transparent;
-  border-top: 5px solid rgba(32, 124, 167, 0.87);
-  padding: 20px;
-  border-radius: 12px;
-  text-decoration: none;
-	font-size: 1.2em;
-  box-shadow: 0px 1px 2px rgba(0,0,0,0.3);
-  transition: 0.2s ease-in-out;
+    width: 60px;
+    height: 10px;
+    position: relative;
+    color: rgba(0,0,0,0.87);
+    border: transparent;
+    border-top: 5px solid rgba(32, 124, 167, 0.87);
+    padding: 20px;
+    border-radius: 12px;
+    text-decoration: none;
+    font-size: 1.2em;
+    box-shadow: 0px 1px 2px rgba(0,0,0,0.3);
+    transition: 0.2s ease-in-out;
 }
 
 .lesson a:hover {
@@ -191,26 +191,26 @@ hr {
 
 
 .next-lesson {
-  text-align: right;
-  height: 1.5em;
-	line-height: 1.5em;
-	margin: 1em 0em;
-  padding: 1em;
-  width: 100%;
-  border-radius: 8.0em;
-  position: relative;
+    text-align: right;
+    height: 1.5em;
+    line-height: 1.5em;
+    margin: 1em 0em;
+    padding: 1em;
+    width: 100%;
+    border-radius: 8.0em;
+    position: relative;
 }
 .next-lesson a {
     width: 60px;
     height: 10px;
     position: relative;
-	  color: rgba(0,0,0,0.87);
+    color: rgba(0,0,0,0.87);
     border: transparent;
     border-top: 5px solid rgba(32, 124, 167, 0.87);
     padding: 5px;
     border-radius: 7px;
     text-decoration: none;
-	  font-size: 1.2em;
+    font-size: 1.2em;
     box-shadow: 0px 1px 2px rgba(0,0,0,0.3);
     transition: 0.2s ease-in-out;
 }
@@ -223,26 +223,26 @@ hr {
 }
 
 .click-button {
-  text-align: left;
-  height: 1.5em;
-	line-height: 1.5em;
-	margin: 1em 0em;
-  padding: 1em;
-  width: 100%;
-  border-radius: 8.0em;
-  position: relative;
+    text-align: left;
+    height: 1.5em;
+    line-height: 1.5em;
+    margin: 1em 0em;
+    padding: 1em;
+    width: 100%;
+    border-radius: 8.0em;
+    position: relative;
 }
 .click-button a {
     width: 60px;
     height: 10px;
     position: relative;
-	  color: rgba(0,0,0,0.87);
+    color: rgba(0,0,0,0.87);
     border: transparent;
     border-top: 5px solid rgba(32, 124, 167, 0.87);
     padding: 5px;
     border-radius: 7px;
     text-decoration: none;
-	  font-size: 1.2em;
+    font-size: 1.2em;
     box-shadow: 0px 1px 2px rgba(0,0,0,0.3);
     transition: 0.2s ease-in-out;
 }
