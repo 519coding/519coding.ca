@@ -20,9 +20,9 @@
         <article>
             <h1>What in the world is a string?</h1>
             <p>
-                No, we are not referring to a piece of yarn that your cat plays with. Strings are a unique and useful data type in Python. In our previous lessons, you have already seen strings being used in our <code>print()</code> functions: <code>print(<mark>"Hello World"</mark>)</code>. Strings are used to produce text. We tell the computer that we are working with a string by enclosing our text between either a pair of double quotation marks &#8594; " " or single quotation marks &#8594; ' '. The text we enclose between these quotation marks is output to the compiler using the <code>print()</code> function. Click the button below to see this in action:
+                No, we are not referring to a piece of yarn that your cat plays with. Strings are a unique and useful data type in Python. In our previous lessons, you have already seen strings being used in our <code>print()</code> functions: <code>print(<mark>"Hello World"</mark>)</code>.</p>
+                <p>Strings are used to produce text. We tell the computer that we are working with a string by enclosing our text between either a pair of double quotation marks &#8594; " " or single quotation marks &#8594; ' '. The text we enclose between these quotation marks is output to the compiler using the <code>print()</code> function. 
             </p>
-            <p class = "click-button" style="text-align:center"><a href="https://repl.it/@BarryZhang1/strings" target="_blank">Click Here</a></p>
             
             <hr>
 
@@ -32,28 +32,72 @@
                 <code>
                     "Hello, World!"
                 </code> 
-                is made up of the characters
+                is made up of the following characters:<br>
+            </p>
+                <p style="text-align:center">
                 <code>
                     "H", "e", "l", "l", "o", ",", " ", "W", "o", "r", "l", "d", "!"
                 </code>
-                . This property of Strings allows us to do several interesting things with them.
-            </p>
+                </p>
+                <p>This property of Strings allows us to do several interesting things with them. We'll talk about them below:</p>
 
             <h1>String Concatenation</h1>
             <p>
-                We can aslo combine different strings into one big string, using the <code>+</code> operator: <code>print("Hello" <mark>+</mark> ", " <mark>+</mark> "world!")</code>. This is called <i>string concatenation</i>. Click the button below to see this in action:     
-                <p class = "click-button"><a href="https://repl.it/@BarryZhang1/string-concatenation" target="_blank">Click Here</a></p>
-             
-            </p>
+                One of the cool things we can do with strings is <i>concatenate</i> them. Concatenate is just a fancy word for combining things together. We combine/concatenate different strings into one big string using the <code>+</code> operator: <code>print("Hello" <mark>+</mark> ", " <mark>+</mark> "world!")</code>. This is called <i>string concatenation</i>. Check out the code below to see this in action:     
+  
+            <div data-datacamp-exercise data-lang="python">
+	              <code data-type="sample-code">
+                # You can concatenate strings using the '+' operator, like this:
+                print ("Hello" + ", " + "world!")
 
-            <h1>String Indices and Slices</h1>
+                # You can also concatenate strings by assigning them to variables, like this:
+
+                string1 = ("519coding.ca")
+                string2 = (" is the best website for programming lessons")
+
+                # Now we put them together
+
+                print (string1+string2)
+               
+                # Click 'Submit' to see these strings in action!
+
+                </code>
+	            
+                <code data-type="solution">
+                # You can concatenate strings using the '+' operator, like this:
+                print ("Hello" + ", " + "world!")
+
+                # You can also concatenate strings by assigning them to variables, like this:
+
+                string1 = ("519coding.ca")
+                string2 = (" is the best website for programming lessons")
+
+                # Now we put them together
+
+                print (string1+string2)
+
+                # Click 'Submit' to see these strings in action!
+
+                </code>
+	            
+                <code data-type="sct">
+		            test_function("print")
+		            success_msg("Pretty cool eh?")
+	              </code>
+
+      	    <div data-type="hint">We use the <code>+</code> to concatenate the three variables.</div>
+            </div>
+
+            <h1>String Indices</h1>
             <p>
-                In Python, you are able to retrieve specific characters from a string. All characters in a string are have an number index assigned to them. BUT! Instead of starting at 1, the index of the leftmost character is 0 and the last character is the length of the string minus 1. This is called a zero-based numbering system. 
+                Another cool thing you can do with strings is retrieve specific characters from them. All characters in a string have an number index assigned to them. BUT! Instead of starting at 1, the index of the leftmost character is 0 and the last character is the length of the string minus 1. This is called a zero-based numbering system. 
                     <figure>
 		        <img src="../../images/array-indexing.png"></img>
 	            </figure>
             </p>
-
+            <p>
+                Let's say you only want to print the first letter of a string:
+            </p>
             <p>
                 Suppose:
             </p>
@@ -61,43 +105,91 @@
                     s = "Monty Python"
                 </code>
             <p>
-                What if you wanted to use only the first character of that string, "M"?
-            </p>
-
-            <p>
-                Doing this is actually quite simple. To get a character from a string, type the variable name with set of square brackets after the variable name. The square brackets should contain the index of the character you want to retrieve.
+                Doing this is actually quite simple. To get a specific character from a string, type the variable name with set of square brackets after the variable name. The square brackets should contain the index of the character you want to retrieve.
             </p>
 
             <img src="../../images/s-index0.png"></img>
-
             <p>
-                You can also retrieve a <i>Slice</i> of a string. A slice is just a string contained within a string.
+                Try it yourself in the editor below:
+            </p>
+
+            <div data-datacamp-exercise data-lang="python">
+	              <code data-type="sample-code">
+                # Use a print() function to print out the third letter of the word "Python". It has been assigned to the variable below:
+
+                a = "Python"
+
+                # The letter 'o' should be output to the compiler. Write your print() function in the line below:
+
+                </code>
+	            
+                <code data-type="solution">
+                a = "Python"
+                print(a[4])                
+                </code>
+	            
+                <code data-type="sct">
+		            test_function("print")
+		            success_msg("You did it!")
+	              </code>
+
+      	    <div data-type="hint">The first character is represented by index 0 - [0]. The third character would be index 4 - [4]</div>
+            </div>
+            
+            <h2>"Slicing" a string</h2>
+            <p>
+                You can also retrieve a <i>Slice</i> of a string. A slice is just a string contained within a string. Check out the image below to see how we "slice" a string into different segments:
             </p>
             <img src="../../images/s-index1.png"></img>
-            <p>The square bracket now takes two arguments that are separated by a colon. The first value is the index of the starting character, the second value is the index of the ending character PLUS ONE!!!!! NOTE! The first argument is <b>INCLUSIVE</b> the second argument is <b>EXCLUSIVE</b>.
+            <p>The square bracket now takes two arguments that are separated by a colon. The first value is the index of the starting character, the second value is the index of the ending character PLUS ONE!!!!! NOTE! The first argument is <b>INCLUSIVE</b> the second argument is <b>EXCLUSIVE</b>. 
             </p>
             <img src="../../images/s-index2.png"></img>
             <img src="../../images/s-index3.png"></img>
             <img src="../../images/s-index4.png"></img>
             <p>
-                If the value before or after the colon is left empty, then the index will be set to either the start or the end of the string.
+                As you can see above, the first image contains a "slice" of the first 5 characters. The second image contains a "slice" of every character except the first one. The third image contains a pair of square brackets with no values assigned before or after the colon. If the value before or after the colon is left empty, then the index will be set to either the start or the end of the string.
             </p>
+            
+            <h2>Trickier slices</h2>
             <p>
-                What if you wanted to have every second character in a string? Well, the square brackets can take a third value, also separated by a colon, called the <i>step</i>.
+                What if you wanted to have every second character in a string? Or maybe you want to print letters of your string in reverse order? Well, the square brackets can take a third value, also separated by a colon, called the <i>step</i>.
             </p>
             <img src="../../images/s-index5.png"></img>
             <img src="../../images/s-index6.png"></img>
             <img src="../../images/s-index7.png"></img>
             <p>
-                In the last two examples you can see that when the step is negative, you get a string that is reversed. NOTE! When the step is negative, then the starting index must be the higher index, and the ending index must be the lower index.
+                In the first example above, we set the "step" equal to 2. This gives us every second letter of our string. In the last two examples you can see that when the step is negative, you get a string that is reversed. NOTE! When the step is negative, then the starting index must be the higher index, and the ending index must be the lower index. 
             </p>
-            
+            <p>Try slicing strings yourself in the editor below:</p>
+
+            <div data-datacamp-exercise data-lang="python">
+	              <code data-type="sample-code">
+                # Use a print() function to print out every second character of the word "Python"
+
+                a = "Python"
+
+                # The letters 'Pto' should be output to the compiler. Write your print() function in the line below:
+
+                </code>
+	            
+                <code data-type="solution">
+                a = "Python"
+                print(a[::2])
+                </code>
+	            
+                <code data-type="sct">
+		            test_function("print")
+		            success_msg("You did it!")
+	              </code>
+
+      	    <div data-type="hint">The square bracket should look like this [::2] with the first two values left blank and the "step" value equal to 2.</div>
+            </div>            
             <hr>
-            <p class = "next-lesson"><a href="python-syntax.html">&#8592; Previous Lesson</a> <a href="conditionals-and-control-flow.html">Next Lesson &#8594;</a></p>
+            <p class = "next-lesson"><a href="python-syntax.html">&#8592; Previous Lesson</a> <a href="conditionals-and-control-flow.html">Next Lesson &#8594;</a></p>        
         </article>
 
-        
-
         <script src="../../js/navhide.js"></script>
+        <script type="text/javascript" src="//cdn.datacamp.com/dcl-react.js.gz"></script>
+
     </body>
 </html>
