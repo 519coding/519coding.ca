@@ -281,4 +281,7 @@ img {
     border-left: 2px solid rgb(255,255,255);
 }
 
+figcaption {
+    font-size: 12px;
+}
 
