@@ -9,3 +9,4 @@ The goal of this website is to introduce students of all ages to the world of co
 
 We currently offer courses in Python and Web Design. For our Python course, we currently have 7 lessons on basic concepts. For our Web Design course, we currently have 5 lessons on HTML basics. We will be doing a content overhaul in the future where we add more lessons to our two existing courses.
 
+a
