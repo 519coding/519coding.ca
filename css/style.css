@@ -33,6 +33,7 @@ body {
 }
 h1 {
     font-size: 1.95em;
+    font-family: "Lucida Console", "Courier New", monospace;
     padding: 5px
 }
 
